@@ -298,7 +298,9 @@ local achievementIDs = {
 }
 
 local DungeonChampionsData = {}
+local DungeonChampionsDataID = {}
 -- format: locX, locY, achievementId, criteriaIndex
+
 
 DungeonChampionsData["shadowfen"] = { --300 Sanguine's Demesne - Verified
    ["sanguinesdemesne_base"] = {
