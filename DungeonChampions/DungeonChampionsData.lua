@@ -283,6 +283,7 @@ local achievementIDs = {
 
 	-- Blackwood
 	[2965] = true, -- Undertow Cavern
+   	[2966] = true, -- Xi-Tsei
 }
 
 local DungeonChampionsData = {}
@@ -1277,6 +1278,10 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
    ["u30_undertowcavern"] = {
       { 0.5046, 0.1575, 2965, 1}, -- Undertow Cavern
    },
+   ["u30_xanmeeroverlook"] = {
+      { 0.5174, 0.4591, 2966, 1}, -- Xi-Tsei 
+   },
+
 }
 
 function GetAchievementIDs()
