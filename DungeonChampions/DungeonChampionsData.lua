@@ -278,9 +278,11 @@ local achievementIDs = {
 	[2718] = true, -- Nchuthnkarst Public Dungeon
 	
 	-- The Reach
-	
 	[2852] = true, -- Gloomreach
 	[2853] = true, -- Briar Rock Ruins
+
+	-- Blackwood
+	[2965] = true, -- Undertow Cavern
 }
 
 local DungeonChampionsData = {}
@@ -1268,6 +1270,12 @@ DungeonChampionsData["reach"] = { -- The Reach
    },
    ["briarrockruins_ext"] = {
       { 0.1231, 0.5768, 2853, 1}, -- Briar Rock Ruins
+   },
+}
+
+DungeonChampionsData["blackwood"] = { -- Blackwood
+   ["u30_undertowcavern"] = {
+      { 0.5046, 0.1575, 2965, 1}, -- Undertow Cavern
    },
 }
 
