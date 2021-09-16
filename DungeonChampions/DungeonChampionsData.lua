@@ -286,6 +286,7 @@ local achievementIDs = {
    	[2966] = true, -- Xi-Tsei
 	[2967] = true, -- Doomvault Porcixid
 	[2968] = true, -- Arpenia
+	[2969] = true, -- Bloodrun Cave
 
 }
 
@@ -1295,6 +1296,9 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
    },
    ["arpenial_base"] = {
       { 0.1641, 0.3864, 2968, 1}, -- Arpenia 
+   },
+   ["u30_bloodruncave"] = {
+      { 0.2901, 0.6504, 2969, 1}, -- Bloodrun Cave 
    },
 
 }
