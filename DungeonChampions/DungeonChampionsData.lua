@@ -285,6 +285,8 @@ local achievementIDs = {
 	[2965] = true, -- Undertow Cavern
    	[2966] = true, -- Xi-Tsei
 	[2967] = true, -- Doomvault Porcixid
+	[2968] = true, -- Arpenia
+
 }
 
 local DungeonChampionsData = {}
@@ -1284,6 +1286,15 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
    },
    ["vaultdelve_int03"] = {
       { 0.3408, 0.6652, 2967, 1}, -- Doomvault Porcixid
+   },
+   ["arpeniah_base"] = {
+      { 0.1641, 0.3864, 2968, 1}, -- Arpenia 
+   },
+   ["arpeniah2_base"] = {
+      { 0.1641, 0.3864, 2968, 1}, -- Arpenia 
+   },
+   ["arpenial_base"] = {
+      { 0.1641, 0.3864, 2968, 1}, -- Arpenia 
    },
 
 }
