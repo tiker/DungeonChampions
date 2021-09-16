@@ -290,6 +290,8 @@ local achievementIDs = {
 	[2970] = true, -- Vunalk
 	[2994] = true, -- Silent Halls group event
 	[2996] = true, -- Silent Halls public dungeon
+	[2995] = true, -- Zenithar's Abbey group event
+	[2997] = true, -- Zenithar's Abbey public dungeon
 
 }
 
@@ -1325,6 +1327,50 @@ DungeonChampionsDataID[1958] = {  -- Blackwood / The Silent Halls
 DungeonChampionsDataID[1959] = {  -- Blackwood / The Silent Halls
 	{ 0.4616, 0.7475, 2996, 5},
 	{ 0.6193, 0.2794, 2994, 1},
+}
+
+DungeonChampionsDataID[1985] = {  -- Blackwood / Zenithar's Abbey
+	{ 0.3556, 0.4692, 2997, 1},
+	{ 0.2042, 0.7188, 2997, 2},
+	{ 0.3938, 0.1776, 2997, 3},
+	{ 0.5515, 0.4788, 2997, 4},
+	{ 0.8677, 0.5316, 2997, 5},
+}
+
+DungeonChampionsDataID[1986] = {  -- Blackwood / Zenithar's Abbey
+	{ 0.3556, 0.4692, 2997, 1},
+	{ 0.2042, 0.7188, 2997, 2},
+	{ 0.3938, 0.1776, 2997, 3},
+	{ 0.5515, 0.4788, 2997, 4},
+	{ 0.8677, 0.5316, 2997, 5},
+}
+
+DungeonChampionsDataID[1987] = {  -- Blackwood / Zenithar's Abbey
+	{ 0.3556, 0.4692, 2997, 1},
+	{ 0.2042, 0.7188, 2997, 2},
+	{ 0.3938, 0.1776, 2997, 3},
+	{ 0.5515, 0.4788, 2997, 4},
+	{ 0.8677, 0.5316, 2997, 5},
+}
+
+DungeonChampionsDataID[1988] = {  -- Blackwood / Zenithar's Abbey
+	{ 0.3556, 0.4692, 2997, 1},
+	{ 0.2042, 0.7188, 2997, 2},
+	{ 0.3938, 0.1776, 2997, 3},
+	{ 0.5515, 0.4788, 2997, 4},
+	{ 0.8677, 0.5316, 2997, 5},
+}
+
+DungeonChampionsDataID[1989] = {  -- Blackwood / Zenithar's Abbey
+	{ 0.3556, 0.4692, 2997, 1},
+	{ 0.2042, 0.7188, 2997, 2},
+	{ 0.3938, 0.1776, 2997, 3},
+	{ 0.5515, 0.4788, 2997, 4},
+	{ 0.8677, 0.5316, 2997, 5},
+}
+
+DungeonChampionsDataID[1990] = {  -- Blackwood / Zenithar's Abbey
+	{ 0.6133, 0.5190, 2995, 1},
 }
 
 function GetAchievementIDs()
