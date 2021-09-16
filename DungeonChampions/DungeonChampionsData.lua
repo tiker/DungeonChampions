@@ -287,6 +287,7 @@ local achievementIDs = {
 	[2967] = true, -- Doomvault Porcixid
 	[2968] = true, -- Arpenia
 	[2969] = true, -- Bloodrun Cave
+	[2970] = true, -- Vunalk
 
 }
 
@@ -1299,6 +1300,12 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
    },
    ["u30_bloodruncave"] = {
       { 0.2901, 0.6504, 2969, 1}, -- Bloodrun Cave 
+   },
+   ["vunalk1_base"] = {
+      { 0.2915, 0.4212, 2970, 1}, -- Vunalk
+   },
+   ["vunalk2_base"] = {
+      { 0.2915, 0.4212, 2970, 1}, -- Vunalk
    },
 
 }
