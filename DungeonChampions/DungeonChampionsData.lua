@@ -284,6 +284,7 @@ local achievementIDs = {
 	-- Blackwood
 	[2965] = true, -- Undertow Cavern
    	[2966] = true, -- Xi-Tsei
+	[2967] = true, -- Doomvault Porcixid
 }
 
 local DungeonChampionsData = {}
@@ -1280,6 +1281,9 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
    },
    ["u30_xanmeeroverlook"] = {
       { 0.5174, 0.4591, 2966, 1}, -- Xi-Tsei 
+   },
+   ["vaultdelve_int03"] = {
+      { 0.3408, 0.6652, 2967, 1}, -- Doomvault Porcixid
    },
 
 }
