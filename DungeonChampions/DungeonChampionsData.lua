@@ -288,6 +288,8 @@ local achievementIDs = {
 	[2968] = true, -- Arpenia
 	[2969] = true, -- Bloodrun Cave
 	[2970] = true, -- Vunalk
+	[2994] = true, -- Silent Halls group event
+	[2996] = true, -- Silent Halls public dungeon
 
 }
 
@@ -1310,11 +1312,29 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
 
 }
 
+DungeonChampionsDataID[1943] = {  -- Blackwood / The Silent Halls
+	{ 0.5929, 0.3299, 2996, 1},
+	{ 0.3310, 0.7107, 2996, 2},
+}
+
+DungeonChampionsDataID[1958] = {  -- Blackwood / The Silent Halls
+	{ 0.2623, 0.6136, 2996, 3},
+	{ 0.5270, 0.1814, 2996, 4},
+}
+
+DungeonChampionsDataID[1959] = {  -- Blackwood / The Silent Halls
+	{ 0.4616, 0.7475, 2996, 5},
+	{ 0.6193, 0.2794, 2994, 1},
+}
+
 function GetAchievementIDs()
    return achievementIDs
 end
 
-function DungeonChampions_GetLocalData(zone, subzone)
+function DungeonChampions_GetLocalData(zone, subzone, mapid)
+	if mapid and DungeonChampionsDataID[mapid] then
+		return DungeonChampionsDataID[mapid]
+	end
    if type(zone) == "string" and type(subzone) == "string" and DungeonChampionsData[zone] and DungeonChampionsData[zone][subzone] then
       return DungeonChampionsData[zone][subzone]
    end

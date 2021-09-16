@@ -142,7 +142,8 @@ end
 local function CompassCallback_unknown()
 	if GetMapType() <= MAPTYPE_ZONE and savedVariables.filters[PINS_COMPASS_UNKNOWN] then
 		local zone, subzone = GetZoneAndSubZone()
-		local DungeonChampions = DungeonChampions_GetLocalData(zone, subzone)
+		local mapid = GetCurrentMapId()
+		local DungeonChampions = DungeonChampions_GetLocalData(zone, subzone, mapid)
 		if DungeonChampions then
 			for _, pinData in ipairs(DungeonChampions) do
 				local _, numCompleted = GetAchievementCriterion(pinData[3], pinData[4])
@@ -157,7 +158,8 @@ end
 local function CompassCallback_known()
 	if GetMapType() <= MAPTYPE_ZONE and savedVariables.filters[PINS_COMPASS_KNOWN] then
 		local zone, subzone = GetZoneAndSubZone()
-		local DungeonChampions = DungeonChampions_GetLocalData(zone, subzone)
+		local mapid = GetCurrentMapId()
+		local DungeonChampions = DungeonChampions_GetLocalData(zone, subzone, mapid)
 		if DungeonChampions then
 			for _, pinData in ipairs(DungeonChampions) do
 				local _, numCompleted = GetAchievementCriterion(pinData[3], pinData[4])
@@ -171,7 +173,8 @@ end
 
 local function CreatePins()
    local zone, subzone = GetZoneAndSubZone()
-   local DungeonChampions = DungeonChampions_GetLocalData(zone, subzone)
+   local mapid = GetCurrentMapId()
+   local DungeonChampions = DungeonChampions_GetLocalData(zone, subzone, mapid)
 
    if DungeonChampions ~= nil then
       for _, pinData in ipairs(DungeonChampions) do
