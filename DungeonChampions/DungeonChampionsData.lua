@@ -1291,9 +1291,6 @@ DungeonChampionsData["blackwood"] = { -- Blackwood
    ["u30_undertowcavern"] = {
       { 0.5046, 0.1575, 2965, 1}, -- Undertow Cavern
    },
-   ["u30_xanmeeroverlook"] = {
-      { 0.5174, 0.4591, 2966, 1}, -- Xi-Tsei 
-   },
    ["vaultdelve_int03"] = {
       { 0.3408, 0.6652, 2967, 1}, -- Doomvault Porcixid
    },
@@ -1376,6 +1373,11 @@ DungeonChampionsDataID[1989] = {  -- Blackwood / Zenithar's Abbey
 DungeonChampionsDataID[1990] = {  -- Blackwood / Zenithar's Abbey
 	{ 0.6133, 0.5190, 2995, 1},
 }
+
+DungeonChampionsDataID[1945] = {  -- Xi-Tsei 
+	{ 0.5174, 0.4591, 2966, 1},
+}
+
 
 function GetAchievementIDs()
    return achievementIDs
