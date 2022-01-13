@@ -294,6 +294,9 @@ local achievementIDs = {
 	[2996] = true, -- Silent Halls public dungeon
 	[2995] = true, -- Zenithar's Abbey group event
 	[2997] = true, -- Zenithar's Abbey public dungeon
+	
+	-- The Deadlands
+	[3135] = true, -- The Brandfire Reformatory
 
 }
 
@@ -1377,6 +1380,15 @@ DungeonChampionsDataID[1990] = {  -- Blackwood / Zenithar's Abbey
 DungeonChampionsDataID[1945] = {  -- Xi-Tsei 
 	{ 0.5174, 0.4591, 2966, 1},
 }
+
+DungeonChampionsDataID[2107] = {  -- The Deadlands / The Brandfire Reformatory
+	{ 0.5009, 0.4432, 3135, 1},
+}
+
+DungeonChampionsDataID[2122] = {  -- The Deadlands / The Brandfire Reformatory 
+	{ 0.5009, 0.4432, 3135, 1},
+}
+
 
 
 function GetAchievementIDs()
