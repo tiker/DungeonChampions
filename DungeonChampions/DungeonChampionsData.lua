@@ -297,6 +297,7 @@ local achievementIDs = {
 	
 	-- The Deadlands
 	[3135] = true, -- The Brandfire Reformatory
+	[3136] = true, -- False Martyrs' Folly
 
 }
 
@@ -1379,6 +1380,10 @@ DungeonChampionsDataID[1990] = {  -- Blackwood / Zenithar's Abbey
 
 DungeonChampionsDataID[1945] = {  -- Xi-Tsei 
 	{ 0.5174, 0.4591, 2966, 1},
+}
+
+DungeonChampionsDataID[2089] = {  -- The Deadlands / False Martyrs' Folly
+	{ 0.5483, 0.4479, 3136, 1},
 }
 
 DungeonChampionsDataID[2107] = {  -- The Deadlands / The Brandfire Reformatory
