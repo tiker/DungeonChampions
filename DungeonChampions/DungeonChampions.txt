@@ -1,8 +1,8 @@
-## Title: |cEFEBBEDungeon Champions|r 1.0.14
+## Title: |cEFEBBEDungeon Champions|r 1.0.15
 ## Description: This addon displays World Map pins for dungeon champions.
-## Version: 1.0.14
+## Version: 1.0.15
 ## Author: |Gadget's| & |cEFEBBEScott123|r & |MerlinGer|r
-## APIVersion: 101031
+## APIVersion: 101032
 ## SavedVariables: DCS_SavedVariables
 ## DependsOn: LibAddonMenu-2.0>=30 LibMapPins-1.0>=10029 CustomCompassPins>=31
 

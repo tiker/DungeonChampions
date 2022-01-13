@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
--- Dungeon Champions Data v1.0.14
+-- Dungeon Champions Data v1.0.15
 -------------------------------------------------------------------------------
 --
--- Updated by @Gadget's 2021
+-- Updated by @Gadget's 2021, 2022
 --
 -- Update and Changing for Dungeon Champions by Scott123 2020
 -- The Changes are in Copyright by MerlinGer
