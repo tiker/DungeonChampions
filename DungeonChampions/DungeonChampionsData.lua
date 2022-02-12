@@ -498,7 +498,7 @@ DungeonChampionsData["auridon"] = { -- 390 Toothmaul Gully - Verified
       { 0.61, 0.67, 390, 3}, -- Slakkith and Gorg
       { 0.28, 0.43, 390, 4}, -- Thek and Black Bessie
       { 0.45, 0.63, 390, 5}, -- Togga the Skewerer
-      { 0.48, 0.65, 468, 1}, -- Group Boss Bloodroot
+      { 0.4772, 0.6258, 468, 1}, -- Group Boss Bloodroot
    },
    
    ["bewan_base"] = {
