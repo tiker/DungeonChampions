@@ -299,6 +299,9 @@ local achievementIDs = {
 	[3135] = true, -- The Brandfire Reformatory
 	[3136] = true, -- False Martyrs' Folly
 
+	-- Telvanni Peninsula
+	[3620] = true, -- Anchre Egg Mine
+
 }
 
 local DungeonChampionsData = {}
@@ -1394,6 +1397,9 @@ DungeonChampionsDataID[2122] = {  -- The Deadlands / The Brandfire Reformatory
 	{ 0.5009, 0.4432, 3135, 1},
 }
 
+DungeonChampionsDataID[2305] = {  -- Anchre Egg Mine
+      { 0.5180, 0.4690, 3620, 1} -- Zaedare the Afflicted
+}
 
 
 function GetAchievementIDs()
