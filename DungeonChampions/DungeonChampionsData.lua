@@ -299,6 +299,8 @@ local achievementIDs = {
 	[3135] = true, -- The Brandfire Reformatory
 	[3136] = true, -- False Martyrs' Folly
 
+
+	[3621] = true, -- Camonnaruhn
 }
 
 local DungeonChampionsData = {}
@@ -1394,7 +1396,9 @@ DungeonChampionsDataID[2122] = {  -- The Deadlands / The Brandfire Reformatory
 	{ 0.5009, 0.4432, 3135, 1},
 }
 
-
+DungeonChampionsDataID[2292] = {  -- Camonnaruhn
+      { 0.6062, 0.1980, 3621, 1} -- Matron Chruchak
+}
 
 function GetAchievementIDs()
    return achievementIDs
